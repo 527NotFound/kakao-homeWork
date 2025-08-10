@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        iframe {
+            width: 100%;
+            height: 300px;
+            border: 0;
+        }
+    </style>
+    <title>Basic example</title>
+</head>
+<body>
+    <header>
+        <h1><b>메뉴</b></h1>
+        <nav>
+            <ul>
+                <li><a href="#signUp">회원가입</a></li>
+                <li><a href="#profileInfo">프로필 정보</a></li>
+                <li><a href="#contact">문의하기</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <hr>
+
+    <main id="signUp">
+        <section>
+            <h2>회원가입</h2>
+            <form id="signUpForm">
+
+                <label for="userName">사용자 이름: </label>
+                <input type="text" id="userName" name="userName" placeholder="사용자 이름을 입력해주세요" required>
+                <br><br>
+
+                <label for="userEmail">이메일: </label>
+                <input type="email" id="userEmail" name="userEmail" placeholder="parkDooChul@sniperfactory.com" required>
+                <br><br>
+
+                <label for="userPW">비밀번호: </label>
+                <input type="password" id="userPW" name="userPW" placeholder="비밀번호입력" required>
+                <br><br>
+
+                <label for="userAge">나이: </label>
+                <input type="number" id="userAge" name="userAge" placeholder="나이를 입력해주세요" min="1" max="200">
+                <br><br>
+
+                <label>성별: </label>
+                <!-- 남성 -->
+                <input type="radio" id="male" name="gender" value="남성" required>
+                <label for="male">남성</label>
+                <!-- 여성 -->
+                <input type="radio" id="female" name="gender" value="여성">
+                <label for="female">여성</label>
+                <br><br>
+
+                <label for="itd-yourSelf">자기소개: </label>
+                <textarea id="itd-yourSelf" name="itd-yourSelf" rows="4" cols="50" placeholder="자기소개를 입력하세요"></textarea>
+                <br><br>
+
+                <label for="hobbies">취미</label>
+                <select id="hobbies" name="hobbies[]">
+                    <optgroup label="스포츠">
+                        <option value="축구">축구</option>
+                        <option value="농구">농구</option>
+                        <option value="야구">야구</option>
+                    </optgroup>
+                    <optgroup label="예술">
+                        <option value="음악감상">음악감상</option>
+                        <option value="그림그리기">그림그리기</option>
+                        <option value="사진촬영">사진촬영</option>
+                    </optgroup>
+                    <optgroup label="기타">
+                        <option value="독서">독서</option>
+                        <option value="여행">여행</option>
+                        <option value="요리">요리</option>
+                    </optgroup>
+                </select>
+                <br><br>
+
+                <label for="profilePic">프로필 사진 업로드: </label>
+                <input type="file" id="profilePic" name="profilePic" accept="image/*">
+
+                <button type="button">회원가입</button>
+                <button type="button">초기화</button>
+
+                <label for="progress">업데이트 진행 상황: </label>
+                <progress id="progress" value="0" max="100"></progress>
+            </form>
+        </section>
+
+        <hr>
+
+        <section id="media">
+            <h2>프로필 정보</h2>
+            <table>
+                <caption>프로필 정보 요약</caption>
+                <colgroup>
+                    <col style="width: 20%;">
+                    <col style="width: 80%;">
+                </colgroup>
+                <thead>
+                    <tr>
+                        <th>항목</th>
+                        <th>내용</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th>프로필</th>
+                        <td><img id="profileImage" alt="프로필 사진 미리보기" width="150"></td>
+                    </tr>
+                    <tr>
+                        <th>이름</th>
+                        <td id="displayName"></td>
+                    </tr>
+                    <tr>
+                        <th>이메일</th>
+                        <td id="displayEmail"></td>
+                    </tr>
+                    <tr>
+                        <th>나이</th>
+                        <td id="displayAge"></td>
+                    </tr>
+                    <tr>
+                        <th>성별</th>
+                        <td id="displayGender"></td>
+                    </tr>
+                    <tr>
+                        <th>자기소개</th>
+                        <td id="displayIntroduction"></td>
+                    </tr>
+                    <tr>
+                        <th>취미</th>
+                        <td id="displayHobbies"></td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="2">프로필 정보가 성공적으로 업데이트되었습니다😊</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
+        
+        <hr>
+    </main>
+    <footer>
+        <h2>문의하기</h2>
+        <address>
+            <p>문의: <a href="parkDooChul@sniperfactory.com">parkDooChul@sniperfactory.com</a></p>
+            <p>전화: 010-1234-5678</p>
+            <p>주소: 용인시 기흥구 구갈동</p>
+        </address>
+        <h3>오시는 길</h3>
+        <iframe
+            src=""
+            allowfullscreen=""
+            loading="lazy">
+        </iframe>
+        <p><strong>Copyright &copy; 2025</strong> 프로필 관리 페이지</p>
+    </footer>
+</body>
+</html>
