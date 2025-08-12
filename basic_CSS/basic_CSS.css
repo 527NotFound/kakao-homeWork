@@ -119,3 +119,4 @@ footer {
 
 footer p ~ p {
     margin-top: 10px; /* 첫 번째 p 다음에 오는 p에 위쪽 여백 10px */
+}
