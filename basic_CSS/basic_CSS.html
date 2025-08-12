@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="basic_CSS.css">
+
+    <title>회원가입</title>
+</head>
+<body>
+    <!-- 헤더 -->
+    <header>
+        <div class="header-sector">
+            <div class="header-box"></div>
+            <h1>회원가입</h1>
+        </div>
+    </header>
+
+    <!-- 메인 -->
+    <div class="main-box">
+        <div class="sidebar">
+            <nav>
+                <ul>
+                    <li><a>로그인</a></li>
+                    <li><a>도움말</a></li>
+                    <li><a>약관</a></li>
+                </ul>
+            </nav>
+        </div>
+        
+        <main class="signUp-form">
+            <form>
+                <label for="name">이름:</label>
+                <input type="text" id="name" name="name">
+
+                <label for="email">이메일:</label>
+                <input type="email" id="email" name="email">
+
+                <label for="password">비밀번호:</label>
+                <input type="password" id="password" name="password">
+
+                <label>성별:</label>
+                <div class="gender">
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="male">남성</label>
+
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">여성</label>
+                </div>
+
+                <div class="agreement">
+                    <input type="checkbox" id="agreement" name="agreement">
+                    <label for="agreement">약관에 동의합니다</label>
+                </div>
+
+                <button type="submit">회원가입</button>
+            </form>
+        </main>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 MyWebsite | 연락처: dcPark@sniperfactory.com</p>
+    </footer>
+</body>
+</html>
