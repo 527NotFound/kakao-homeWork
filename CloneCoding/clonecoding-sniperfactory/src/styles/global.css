@@ -1,0 +1,102 @@
+/* 공통 리셋 */
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: 'Noto Sans KR', sans-serif;
+  background: #fafafa;
+  color: #333;
+  line-height: 1.5;
+}
+a { text-decoration: none; color: inherit; }
+ul { list-style: none; }
+
+/* Header */
+.header {
+  background: #222;
+  color: white;
+  padding: 15px 30px;
+}
+.nav a {
+  color: white;
+  margin-right: 20px;
+}
+.nav a:hover {
+  color: #ff9000;
+}
+
+/* Footer */
+.footer {
+  background: #eee;
+  text-align: center;
+  padding: 15px;
+  font-size: 14px;
+}
+
+/* Main container */
+.container {
+  min-height: 80vh;
+  padding: 20px;
+}
+
+/* Home */
+.hero {
+  background: linear-gradient(135deg, #ffb400, #ff7a00);
+  color: white;
+  padding: 60px 20px;
+  text-align: center;
+  border-radius: 8px;
+}
+.metrics {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+  flex-wrap: wrap;
+}
+.metrics-card {
+  background: white;
+  padding: 20px 30px;
+  min-width: 150px;
+  margin: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* List */
+.list-card {
+  background: white;
+  padding: 20px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+/* Form */
+.form {
+  max-width: 500px;
+  margin-top: 20px;
+}
+.form-row {
+  margin-bottom: 15px;
+}
+.label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+.input, .textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+.button {
+  background: #ff7a00;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.button:hover {
+  background: #ff9000;
+}
