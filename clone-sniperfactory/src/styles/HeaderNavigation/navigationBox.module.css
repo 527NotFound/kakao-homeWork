@@ -1,0 +1,11 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.navBox {
+    width: 100%;
+    background: #fff;
+    padding: 8px 0;
+    border-bottom: 1.5px solid #f4f5f8;
+}

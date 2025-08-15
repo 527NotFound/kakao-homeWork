@@ -1,4 +1,4 @@
-import styles from '../../styles/headerCurriculum.module.css';
+import styles from '../../styles/HeaderCurriculum/headerCurriculum.module.css';
 
 function CurriculumText ({ children }) {
     return (

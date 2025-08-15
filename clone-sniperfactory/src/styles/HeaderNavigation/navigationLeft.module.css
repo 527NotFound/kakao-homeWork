@@ -1,0 +1,34 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.logo {
+    height: 36px;
+    margin-right: 16px;
+}
+
+.menuList {
+    display: flex;
+    gap: 28px;
+    font-size: 18px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.active {
+    color: #4096ff;
+    font-weight: 600;
+}
+
+.highlight {
+    color: #a679ff;
+    font-weight: 600;
+}

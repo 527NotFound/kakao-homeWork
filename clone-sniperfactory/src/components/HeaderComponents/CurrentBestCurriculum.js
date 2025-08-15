@@ -2,7 +2,7 @@
 import CurriculumText from './CurriculumText'
 
 // CSS Style
-import styles from '../../styles/headerCurriculum.module.css';
+import styles from '../../styles/HeaderCurriculum/headerCurriculum.module.css';
 
 function CurrentBestCurriculum () {
     return (
