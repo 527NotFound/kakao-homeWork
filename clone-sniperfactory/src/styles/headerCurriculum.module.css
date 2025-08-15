@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.curriculumBg {
+    background: #333;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.curriculumText {
+    font-size: 2rem;
+    font-weight: 700;
+    background: linear-gradient(90deg, #b06ab3 0%, #4568dc 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
