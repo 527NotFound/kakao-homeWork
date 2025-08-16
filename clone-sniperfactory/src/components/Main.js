@@ -1,9 +1,10 @@
+import LargeBannerContainer from './MainComponents/MainBanner/LargeSlideBanner';
+
 function Main() {
     return (
-        <main>
-            <h2>Welcome!</h2>
-            <p>This is Sniper Factory Website</p>
-        </main>
+        <div>
+            <LargeBannerContainer />
+        </div>
     );
 }
 
