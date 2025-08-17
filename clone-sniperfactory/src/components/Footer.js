@@ -1,8 +1,19 @@
+// Child Node
+import InsideOut from '../components/FooterComponents/InsideOut';
+import SiteMapAndApply from '../components/FooterComponents/SiteMapAndApply/SiteMapAndApply';
+import Information from './FooterComponents/Information/Information';
+
+// CSS Style
+import styles from '../styles/Footer/footer.module.css';
+
 function Footer() {
     return(
-        <footer>
-            <small>Copyright &copy SniperFactory</small>
-        </footer>
+        <div className={styles.footerContainer}>
+            <InsideOut />
+            <SiteMapAndApply />
+            <hr />
+            <Information />
+        </div>
     );
 }
 

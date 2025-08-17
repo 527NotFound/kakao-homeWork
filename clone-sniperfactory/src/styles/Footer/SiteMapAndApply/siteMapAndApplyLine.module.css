@@ -1,0 +1,11 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.siteMapAndApplyLine {
+  display: flex;
+  flex-direction: row;
+  gap: 80px;
+  width: 100%;
+}

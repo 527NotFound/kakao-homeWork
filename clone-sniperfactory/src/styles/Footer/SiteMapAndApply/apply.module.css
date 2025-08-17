@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.applyWrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.applyTitle {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #2d2d2d;
+  margin-bottom: 12px;
+}
+
+.applyItems {
+  display: flex;
+  gap: 18px;
+}
+
+.applyItem {
+  font-size: 1.0rem;
+  color: #757575;
+}

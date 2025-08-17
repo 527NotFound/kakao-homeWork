@@ -1,4 +1,4 @@
-import styles from '../../../styles/HeaderNavigation/navigationRight.module.css';
+import styles from '../../../styles/Header/HeaderNavigation/navigationRight.module.css';
 
 function NavigationRight () {
     return (

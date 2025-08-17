@@ -1,5 +1,5 @@
 // CSS Style
-import styles from '../../../styles/HeaderNavigation/navigationLeft.module.css';
+import styles from '../../../styles/Header/HeaderNavigation/navigationLeft.module.css';
 
 function NavigationLeft() {
     return (

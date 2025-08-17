@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.siteMapWrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.siteMapTitle {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #2d2d2d;
+  margin-bottom: 12px;
+}
+
+.siteMapItems {
+  display: flex;
+  gap: 18px;
+}
+
+.siteMapItem {
+  font-size: 1rem;
+  color: #757575;
+}

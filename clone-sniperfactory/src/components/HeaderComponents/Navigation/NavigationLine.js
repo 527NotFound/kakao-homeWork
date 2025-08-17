@@ -3,7 +3,7 @@ import NavigationLeft from './NavigationLeft';
 import NavigationRight from './NavigationRight';
 
 // CSS Style
-import styles from '../../../styles/HeaderNavigation/navigationLine.module.css';
+import styles from '../../../styles/Header/HeaderNavigation/navigationLine.module.css';
 
 function NavigationLine () {
     return (
