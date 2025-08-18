@@ -1,9 +1,8 @@
-import logo from './logo.svg';
-import './App.css';
+import UseReducer from './Components/useReducerDemo';
 
 function App() {
   return (
-    <h1>Hello, React!</h1>
+    <UseReducer />
   );
 }
 
