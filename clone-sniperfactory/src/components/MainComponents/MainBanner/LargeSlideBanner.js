@@ -11,12 +11,12 @@ const slides = [
   {
     title: ["올인원마케팅 인턴십", "사전모집 신청!"],
     description: "마케터 커리어에 필요한 직무가 모두 여기에!",
-    image: "/images/bell.png",
+    image: "https://i.pinimg.com/736x/17/a3/ad/17a3add0702c61ae399c27a8ecdcfbbc.jpg",
   },
   {
     title: ["기다리고 계신 교육이 있으신가요?", "신청 소식을 가장 먼저 알려드릴게요."],
     description: "다양한 강의를 빠르게 받아보세요.",
-    image: "/images/code.png",
+    image: "https://i.pinimg.com/736x/3a/f7/38/3af738b281f130d4daf2c99fd7f5b959.jpg",
   },
 ];
 
